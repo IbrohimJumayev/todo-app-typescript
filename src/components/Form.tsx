@@ -1,4 +1,4 @@
-import { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { add, setNewTodo } from "../store/slices/TodosSlice";
 import { RootState } from "../store/store";
